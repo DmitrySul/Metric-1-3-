@@ -38,7 +38,7 @@ h3 {
 }
 .nav-header {
   float: right;
-  margin-top: 2px;
+  margin-top: 1px;
 }
 .nav__link {
   font-weight: 400;
@@ -99,7 +99,8 @@ h3 {
   line-height: 61px;
   letter-spacing: -0.03em;
   color: #121212;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
+  margin-left: 1px;
 }
 .btn_services {
   width: 255px;
@@ -130,7 +131,7 @@ h3 {
   margin-bottom: 90px;
 }
 .project__item h3 {
-  margin: 14px 0 14px 0;
+  margin: 14px 0 13px 0;
 }
 .project__item a {
   font-weight: 400;
