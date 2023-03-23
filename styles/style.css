@@ -189,3 +189,113 @@ h3 {
 .service__item:nth-last-child(1) {
   margin-bottom: 0;
 }
+
+/*Секция с полноэкранной картинкой*/
+.full-screen-image {
+  height: 717px;
+  background-image: url(../resources/landscape.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.full-screen-image__inner {
+  position: relative;
+  width: 1150px;
+  margin: 0 auto;
+}
+.full-screen-image__inner h3 {
+  position: absolute;
+  width: 443px;
+  top: 575px;
+  color: #ffffff;
+  letter-spacing: -0.03em;
+}
+
+/*секция с контактами*/
+.contacts__inner {
+  width: 1150px;
+  margin: 0 auto 150px auto;
+  margin-top: 150px;
+}
+.contacts__inner::before {
+  margin-left: -5px;
+  margin-bottom: 12px;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../resources/phone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.contacts__inner h2 {
+  margin-bottom: 32px;
+}
+.contact__number {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.014em;
+  color: #121212;
+  text-decoration: none;
+  margin-bottom: 30px;
+  display: block;
+}
+.contact__mail {
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  opacity: 0.5;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+.contact__mail::after {
+  margin-top: 7px;
+  margin-left: 3px;
+  content: "";
+  width: 406px;
+  height: 2px;
+  display: block;
+  background-image: url(../resources/mail-line.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+/*футер*/
+footer {
+  min-width: 1150px;
+  background: #121212;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.footer-inner {
+  width: 1150px;
+  margin: 0 auto;
+  padding-left: 345px;
+}
+.footer__nav {
+  margin-bottom: 87px;
+}
+.footer__link {
+  margin-right: 52px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer__link:hover {
+  opacity: 0.5;
+}
+.footer__copyright {
+  margin: 0 auto;
+  width: 389px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  opacity: 0.5;
+}
